@@ -1,5 +1,4 @@
 import * as fs from 'fs';
-import { isNumberObject } from 'util/types';
 
 const input = fs.readFileSync('./input.txt', 'utf8');
 
