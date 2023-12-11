@@ -1,9 +1,5 @@
 import * as fs from 'fs'
 
-const maxRed = 12
-const maxGreen = 13
-const maxBlue = 14
-
 const input = fs.readFileSync('./input.txt', 'utf8')
 
 const max = (a: number, b: number) => (a > b ? a : b)
